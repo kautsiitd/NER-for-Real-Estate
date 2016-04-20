@@ -1,0 +1,1 @@
+java -cp "/home/kauts/mallet-2.0.8RC3/class:/home/kauts/mallet-2.0.8RC3/lib/mallet-deps.jar" cc.mallet.fst.SimpleTagger --train true --test lab --threads 4 --iterations 500 --training-proportion 0.9 train.txt
